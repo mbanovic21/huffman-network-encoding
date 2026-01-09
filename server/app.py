@@ -13,6 +13,10 @@ app = Flask(__name__)
 
 SERVER_DIR = Path(__file__).resolve().parent
 
+@app.get("/")
+def root():
+    return {"service": "huffman-network-encoding", "endpoints": ["/health", "/encode"]}
+
 @app.get("/health")
 def health():
     return {"ok": True}
