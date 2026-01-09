@@ -1,0 +1,6 @@
+#server
+requests
+beautifulsoup4
+lxml
+
+komanda: python -m pip install -r requirements.txt

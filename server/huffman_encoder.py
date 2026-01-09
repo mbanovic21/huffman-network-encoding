@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 
-MAGIC = b"NMR1"
+MAGIC = b"NMR"
 VERSION = 1
 TOKEN_REGEX = r"\w+|[^\w]"
 
