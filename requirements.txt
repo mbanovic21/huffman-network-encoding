@@ -1,6 +1,8 @@
 #server
+flask
+gunicorn
 requests
 beautifulsoup4
 lxml
 
-komanda: python -m pip install -r requirements.txt
+#komanda: python -m pip install -r requirements.txt
