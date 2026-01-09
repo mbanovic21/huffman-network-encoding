@@ -1,6 +1,3 @@
-# huffman-network-encoding
-Implementation of Huffman data compression for efficient network transmission, including web scraping, server-client communication, and traffic analysis in IMUNES.
-
 # Huffman Network Data Encoding
 
 Ovaj projekt demonstrira **kodiranje i prijenos podataka putem računalne mreže korištenjem Huffmanovog algoritma**. Cilj je smanjiti količinu podataka koji se prenose mrežom primjenom entropijskog kodiranja te analizirati mrežni promet u simuliranom okruženju.
