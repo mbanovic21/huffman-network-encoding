@@ -6,8 +6,8 @@ from pathlib import Path
 
 from flask import Flask, request, jsonify
 
-from scraper import scrape_url
-from huffman_encoder import compress_text_to_files
+from server.scraper import scrape_url
+from server.huffman_encoder import compress_text_to_files
 
 app = Flask(__name__)
 
