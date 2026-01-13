@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 import requests
 
-SERVER_URL = "http://172.16.1.1:8000/encode"
+SERVER_URL = "http://172.16.1.10:8000/encode"
 
 URL = "https://www.techradar.com/phones/android/google-messages-is-getting-a-big-update-in-2026-here-are-the-3-new-whatsapp-style-features-to-look-out-for"
 
