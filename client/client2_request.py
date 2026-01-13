@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 import requests
 
-SERVER_URL = "http://172.16.1.1:8000/encode"
+SERVER_URL = "http://172.16.1.10:8000/encode"
 
 URL = "https://hr.wikipedia.org/wiki/Hrvatska"
 
