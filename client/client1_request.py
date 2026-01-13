@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 import requests
 
-SERVER_URL = "http://172.16.1.1:8000/encode"  # IP poslužitelja
+SERVER_URL = "http://172.16.1.1:8000/encode"  
 
 URL = "https://www.foi.unizg.hr/hr/novosti/besplatne-pripreme-za-drzavnu-maturu-iz-informatike-i-matematike"
 
