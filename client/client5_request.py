@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 import requests
 
-SERVER_URL = "http://172.16.1.1:8000/encode"
+SERVER_URL = "http://172.16.1.10:8000/encode"
 
 URL = "https://www.coolinarika.com/blog/coolinarika/10-razloga-zasto-dodati-zacine-u-hranu-67638e42-c6d3-11f0-9100-7ac4ad11a13f"
 
