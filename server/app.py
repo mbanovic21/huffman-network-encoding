@@ -33,6 +33,8 @@ def encode():
         if not res.text:
             return jsonify({"error": "No text extracted"}), 422
 
+        (SERVER_DIR / "original.txt").write_text(res.text, encoding="utf-8")
+
         meta = compress_text_to_files(res.text, out_dir=SERVER_DIR)
 
         codes = json.loads((SERVER_DIR / "huffman_codes.json").read_text(encoding="utf-8"))
