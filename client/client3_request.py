@@ -5,9 +5,9 @@ import requests
 
 SERVER_URL = "http://172.16.1.1:8000/encode"
 
-URL = "https://hr.wikipedia.org/wiki/Hrvatska"
+URL = "https://www.techradar.com/phones/android/google-messages-is-getting-a-big-update-in-2026-here-are-the-3-new-whatsapp-style-features-to-look-out-for"
 
-client_dir = Path("./client2")
+client_dir = Path("./client3")
 client_dir.mkdir(parents=True, exist_ok=True)
 
 try:
@@ -20,7 +20,7 @@ try:
     encoded_bytes = base64.b64decode(data["encoded_b64"])
     (client_dir / "encoded_data.bin").write_bytes(encoded_bytes)
 
-    print(f"Datoteke za client2 spremljene u {client_dir}")
+    print(f"Datoteke za client3 spremljene u {client_dir}")
 
 except Exception as e:
     print(f"Greška: {e}")
